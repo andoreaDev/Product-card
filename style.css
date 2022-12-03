@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+body{
+    background-color: hsl(30, 38%, 92%);
+    margin: 0px;
+    padding: 0px;
+}
+/* Tipografia*/
+.fraunces{
+    font-family:'Fraunces';
+}
+
+.montserrat{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+/*Card*/
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card{
+    display:flex;
+    justify-content: center;
+    width: 600px;
+    height: 450px;
+}
+
+.imgProduct{
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.imgMobile{
+    visibility: hidden;
+    position: absolute;
+}
+
+.infoProduct{
+    display: grid;
+    background-color: white;
+    border-radius: 0px 10px 10px 0px;
+    padding: 30px;
+}
+
+.finalPrice{
+    font-size: x-large;
+    color: hsl(158, 36%, 37%);
+}
+
+.oldPrice{
+    font-size: small;
+    text-decoration:line-through;
+    position: relative;
+    bottom: 10%;
+    left: 5%;   
+}
+
+
+.colorGray{
+    color: hsl(228, 12%, 48%);
+}
+
+p{
+    font-size: 14px;
+    margin: 0px;
+}
+
+h5{
+    text-transform:uppercase;
+    font-size: 12px;
+    margin: 0px;
+    letter-spacing: 5px;
+}
+
+h1{
+    margin: 0px;
+    font-size: 2rem;
+}
+
+.svg{
+    position: relative;
+    top: 6%;
+    right: 2%;
+}
+
+.btn{
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    font-weight:bolder;
+    border-style: none;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    background-color: hsl(158, 59%, 19%);
+    cursor: pointer;
+}
+
+/*Footer*/
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (max-width: 500px) {
+    .card{
+        flex-direction: column;
+    }
+
+    .container{
+    width: 375px;
+    margin: auto;
+    }
+    
+    .imgProduct{
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .imgMobile{
+        visibility: visible;
+        position: relative;
+        width: 100%;
+        border-radius: 10px 10px 0px 0px;
+    }
+    
+    .infoProduct{
+        row-gap: 15px;
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    .finalPrice{
+        font-size: 30px;
+    }
+
+    .btn{
+        padding: 15px;
+    }
+}
