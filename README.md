@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/responsive-page-using-css-rhcJHgT9SF](https://www.frontendmentor.io/solutions/responsive-page-using-css-rhcJHgT9SF)
-- Live Site URL: [https://project-card-product.netlify.app/](https://project-card-product.netlify.app/)
+- Live Site URL: [https://ex-cardproduct.netlify.app)
 
 
 ## My process
